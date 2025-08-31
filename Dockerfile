@@ -21,4 +21,5 @@ COPY --from=build /app/target/effort_estemate-0.0.1-SNAPSHOT.jar effort_estemate
 EXPOSE 8080
 
 # Command to run the Spring Boot application
-ENTRYPOINT ["java", "-jar", "demo-0.0.1-SNAPSHOT.jar"]
+
+ENTRYPOINT ["java", "-jar", "effort_estemate-0.0.1-SNAPSHOT.jar"]
